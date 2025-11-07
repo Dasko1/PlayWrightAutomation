@@ -1,7 +1,7 @@
  const {test, expect} = require('@playwright/test');
 
 
-
+ // This is the step-by-step detailed way to open a browser and a page.
  //test.use({ browserName: 'webkit'});
  test('@Web Browser Context-Validating Error login', async ({browser})=>
  {
@@ -34,7 +34,7 @@
 
  });
  
-
+ // You can kick start a browser and a page in a single line.
  test('@Web UI Controls', async ({page})=>
  {
     await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
