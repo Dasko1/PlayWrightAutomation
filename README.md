@@ -14,6 +14,6 @@ await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
 await page.waitForTimeout(3000);
 
 // Close the browser after the test
-await browser.close();
 
+await browser.close();
 });
